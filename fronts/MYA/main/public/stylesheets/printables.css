@@ -1,0 +1,16 @@
+.vp._printable._muy {
+  padding-top: 10em;
+  background-image: url('images/printables/loyalty.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 1359px;
+  overflow: hidden;
+}
+.vp._printable._muy ._header {
+  color: #fff;
+  font-size: .9em;
+  padding: 1em;
+  font-weight: normal;
+  font-family: Gotham Light, Helvetica, sans-serif;
+}

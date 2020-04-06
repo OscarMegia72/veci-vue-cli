@@ -1,0 +1,160 @@
+@xxs: ~'only screen and (max-width: 19.9375em)';
+@xs:  ~'only screen and (min-width: 20em) and (max-width: 29.9375em)';
+@s:   ~'only screen and (min-width: 30em) and (max-width: 37.4375em)';
+@m:   ~'only screen and (min-width: 37.5em) and (max-width: 47.9375em)';
+@l:   ~'only screen and (min-width: 48em) and (max-width: 56.1875em)';
+@xl:  ~'only screen and (min-width: 56.25em) and (max-width: 68.6875em)';
+@xxl: ~'only screen and (min-width: 68.75em)'; // 1100
+
+@xs-up:  ~'only screen and (min-width: 20em)'; //320
+@s-up:   ~'only screen and (min-width: 30em)'; //480
+@m-up:   ~'only screen and (min-width: 37.5em)'; //600
+@l-up:   ~'only screen and (min-width: 48em)'; //768
+@xl-up:  ~'only screen and (min-width: 56.25em)'; //900
+@xxl-up:  ~'only screen and (min-width: 68.75em)';
+@print:    ~'print';
+@highlight: #ff3300;
+@muy_gold: #a6874e;
+@gold_icons: #c9b16a;
+@gold: @muy_gold;
+@light_gold: #f4efd1;
+@lighter_gold: #fbf7e1;
+@grey_gradient_start:#eee;
+@grey_gradient_end:#fff;
+@warnings: #fdefc9;
+
+
+// /* El Corte Inglés */
+@eci_color:         #242424;
+@eci_color2:        #88cc88;
+@eci_color3:        #dbf0db;
+@eci_color4:        #F0F8F0;
+
+/* Hipercor */
+@hipercor_color:    #1969a3;
+@hipercor_color2:   #a2c2d9;
+@hipercor_color3:   #e3edf4;
+
+/* Primeriti */
+@primeriti_color:   #29ABE2;
+@primeriti_color2:  #69c4eb;
+@primeriti_color3:  #de0196;
+
+/* La Tienda en Casa */
+@ltc_color:         #ff9c9c;
+@ltc_color2:        #fa6262;
+
+/* Change this to customize */
+@brand_color:       @eci_color;
+@brand_color2:      @eci_color2;
+@brand_color3:      @eci_color3;
+@band_color:        @white15;
+@band_text_color:   @white75;
+
+@white:   #fff;
+@whitex: 	#bab5a5;
+@white99: #fcfcfc;
+@white97: #fafafa;
+@white96: #f5f5f5;
+@white95: #f0f0f0;
+@white90: #e1e1e1;
+@white87: #ddd;
+@white85: #d9d9d9;
+@white80: #c5c5c5;
+@white75: #b7b7b7;
+@white70: #aaa;
+@white65: #9c9c9c;
+@white60: #8f8f8f;
+@white55: #838383;
+@white50: #757676;
+@white45: #6a6a6a;
+@white40: #5e5e5e;
+@white35: #535353;
+@white30: #484848;
+@white25: #3e3e3e;
+@white20: #333333;
+@white15: #242424;
+@white10: #212121;
+@white5:  #181818;
+@white0:  #000000;
+
+@grey:  #313131;
+@grey2: #6d6d6d;
+@grey3: #767676;
+@grey4: #f6f6f6;
+@grey5: #cccccc;
+@grey6: #ebeaeb;
+@grey7: #636060;
+
+@info_background:  #f9f9ce;
+@info_border:      #dcdc8e;
+@info_color:       #92924f;
+
+@link_color: @white50;
+@link_color_hover: @white25;
+
+@opened: #5ca64e;
+@closed: #a64e4e;
+@unread: #121212;
+
+@caution: #eab33c;
+@error: #cc0000;
+@info: #7bc2f2;
+
+@error_background: #ffe1e1;
+@error_color:      #e21e04;
+
+/* PRICING */
+
+@sale_red:    #e21e04;
+
+/* FOOD */
+
+@pets_color:        #F2EDEA;
+@gourmet_color:     #B49E5E;
+@supermarket_color: #F0F0F0;
+@inspiration_color: #FFF6EF;
+@offers_color:      #FFF7F8;
+@gifts:             #ED5A5A;
+
+@primary_button_color: #242424;
+@secondary_button_color: #484848;
+
+@font-size-xxs: 11px;
+@font-size-xs-button: 12px;
+@font-size-xs: 13px;
+@font-size-s: 14px;
+@font-size-m: 16px;
+@font-size-l: 18px;
+@font-size-xl: 22px;
+@font-size-xl-header: 28px;
+@font-size-xxl: 30px;
+/* autoprefixer grid: on */
+// Flexbox container
+.flex-container(@display: flex, @direction: row, @wrap: nowrap, @justifyContent: flex-start, @alignItems: stretch, @alignContent: stretch) {
+  .flex-display(@display);
+	.flex-direction(@direction);
+  .flex-wrap(@wrap);
+  .justify-content(@justifyContent);
+  .align-items(@alignItems);
+  .align-content(@alignContent);
+}
+
+// Flexbox item
+.flex-item(@order: 0, @grow: 0, @shrink: 1, @basis: auto, @align: auto) {
+  .flex-order(@order);
+	.flex-grow(@grow);
+  .flex-shrink(@shrink);
+  .flex-basis(@basis);
+  .align-self(@align);
+}
+.reset-button() {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+

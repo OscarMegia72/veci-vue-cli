@@ -1,0 +1,443 @@
+[{
+    "bookingCode": "0000020001506",
+    "title": "Barcelona - Malaga",
+    "departureDate": "lun. 6 abr. 2020",
+    "returnDate": "mié. 8 abr. 2020",
+    "bookingCreationDate": "jue. 13 feb. 2020",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "220,35",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": false,
+        "hotel": false,
+        "train": true,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["train"]
+    },
+    "locale": "es",
+    "ordinalDate": 202004060830,
+    "groupStatus": "active-pending",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0019218000091",
+    "title": "MSC CRUISES - MSC Magnifica",
+    "departureDate": "jue. 23 abr. 2020",
+    "returnDate": "jue. 30 abr. 2020",
+    "bookingCreationDate": "mar. 21 ene. 2020",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "1708,00",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": false,
+        "hotel": false,
+        "train": false,
+        "cruise": true,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["cruise"]
+    },
+    "locale": "es",
+    "ordinalDate": 202004232000,
+    "groupStatus": "active-pending",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0000020001211",
+    "title": "Barcelona - Narita",
+    "departureDate": "mié. 20 may. 2020",
+    "returnDate": "vie. 29 may. 2020",
+    "bookingCreationDate": "jue. 6 feb. 2020",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "460,15",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": false,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["flight"]
+    },
+    "locale": "es",
+    "ordinalDate": 202005200930,
+    "groupStatus": "active-pending",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0070120000018",
+    "title": "Lisboa - Madrid - Vincci Via - Barajas",
+    "departureDate": "vie. 3 jul. 2020",
+    "returnDate": "dom. 5 jul. 2020",
+    "bookingCreationDate": "mar. 21 ene. 2020",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "1708,00",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": true,
+        "train": false,
+        "cruise": true,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": true,
+        "otherService": false,
+        "pack": true,
+        "tour": false,
+        "icon_list": ["flight", "hotel", "cruise", "transfer", "pack"]
+    },
+    "locale": "es",
+    "ordinalDate": 202007030000,
+    "groupStatus": "active-pending",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0000020001215",
+    "title": "Madrid - NEWARK_LIBERTY - JOHN_F_KENNEDY - Los Angeles - San Francisco - Las Vegas",
+    "departureDate": "mié. 13 may. 2020",
+    "returnDate": "mar. 2 jun. 2020",
+    "bookingCreationDate": "jue. 6 feb. 2020",
+    "bookingStatus": {
+        "code": "1",
+        "description": "Confirmada",
+        "class": "confirm"
+    },
+    "totalPrice": {
+        "amount": "4248,98",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": false,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["flight"]
+    },
+    "locale": "es",
+    "ordinalDate": 202005131050,
+    "groupStatus": "active-pending",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0000119000478",
+    "title": "París con Italia soñada",
+    "departureDate": "jue. 23 ene. 2020",
+    "returnDate": "lun. 3 feb. 2020",
+    "bookingCreationDate": "jue. 16 may. 2019",
+    "bookingStatus": {
+        "code": "4",
+        "description": "Disfrutada",
+        "class": "enjoyed"
+    },
+    "totalPrice": {
+        "amount": "2728,00",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": false,
+        "hotel": false,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": true,
+        "icon_list": ["tour"]
+    },
+    "locale": "es",
+    "ordinalDate": 202001230000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0000019024261",
+    "title": "Sin Documentar",
+    "departureDate": "sáb. 27 jul. 2019",
+    "returnDate": "sáb. 27 jul. 2019",
+    "bookingCreationDate": "mié. 12 jun. 2019",
+    "bookingStatus": {
+        "code": "5",
+        "description": "Cancelada",
+        "class": "canceled"
+    },
+    "totalPrice": {
+        "amount": "10,01",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": false,
+        "hotel": false,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": true,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["ticket"]
+    },
+    "locale": "es",
+    "ordinalDate": 201907270000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0009819004070",
+    "title": "Madrid - BERLIN - Berlin",
+    "departureDate": "vie. 28 jun. 2019",
+    "returnDate": "dom. 30 jun. 2019",
+    "bookingCreationDate": "jue. 9 may. 2019",
+    "bookingStatus": {
+        "code": "4",
+        "description": "Disfrutada",
+        "class": "enjoyed"
+    },
+    "totalPrice": {
+        "amount": "736,24",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": true,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": true,
+        "tour": false,
+        "icon_list": ["flight", "hotel", "pack"]
+    },
+    "locale": "es",
+    "ordinalDate": 201906280000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0041118001472",
+    "title": "La ruta de los volcanes y playas de Bali",
+    "departureDate": "lun. 13 ago. 2018",
+    "returnDate": "sáb. 25 ago. 2018",
+    "bookingCreationDate": "vie. 16 mar. 2018",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "7571,50",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": true,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": true,
+        "otherService": true,
+        "pack": true,
+        "tour": true,
+        "icon_list": ["flight", "hotel", "transfer", "otherService", "pack", "tour"]
+    },
+    "locale": "es",
+    "ordinalDate": 201808130000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0009818101521",
+    "title": "Barcelona",
+    "departureDate": "lun. 11 jun. 2018",
+    "returnDate": "sáb. 16 jun. 2018",
+    "bookingCreationDate": "mar. 5 jun. 2018",
+    "bookingStatus": {
+        "code": "4",
+        "description": "Disfrutada",
+        "class": "enjoyed"
+    },
+    "totalPrice": {
+        "amount": "514,50",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": false,
+        "hotel": false,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": true,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["otherService"]
+    },
+    "locale": "es",
+    "ordinalDate": 201806110000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0106018000010",
+    "title": "Japón Samurai Sugoi",
+    "departureDate": "lun. 2 abr. 2018",
+    "returnDate": "jue. 12 abr. 2018",
+    "bookingCreationDate": "mar. 2 ene. 2018",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "9236,18",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": true,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": true,
+        "transfer": false,
+        "otherService": false,
+        "pack": true,
+        "tour": true,
+        "icon_list": ["flight", "hotel", "trip", "pack", "tour"]
+    },
+    "locale": "es",
+    "ordinalDate": 201804020000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0042218000555",
+    "title": "Playa del Inglés - Aeropuerto de Gran Canaria - LPA - Las Palmas de Gran Canaria (España) - ClubHotel Riu Papayas - -",
+    "departureDate": "vie. 23 mar. 2018",
+    "returnDate": "mar. 27 mar. 2018",
+    "bookingCreationDate": "mar. 20 mar. 2018",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "782,40",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": false,
+        "hotel": true,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": false,
+        "ticket": false,
+        "trip": false,
+        "transfer": true,
+        "otherService": true,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["hotel", "transfer", "otherService"]
+    },
+    "locale": "es",
+    "ordinalDate": 201803230000,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}, {
+    "bookingCode": "0028615000110",
+    "title": "Bilbao - Madrid - Pamplona",
+    "departureDate": "lun. 2 feb. 2015",
+    "returnDate": "jue. 12 feb. 2015",
+    "bookingCreationDate": "mar. 27 ene. 2015",
+    "bookingStatus": {
+        "code": "2",
+        "description": "Pendiente de pago",
+        "class": "unpaid"
+    },
+    "totalPrice": {
+        "amount": "575,00",
+        "currency": "EUR"
+    },
+    "services": {
+        "flight": true,
+        "hotel": true,
+        "train": false,
+        "cruise": false,
+        "bus": false,
+        "car": true,
+        "ticket": false,
+        "trip": false,
+        "transfer": false,
+        "otherService": false,
+        "pack": false,
+        "tour": false,
+        "icon_list": ["flight", "hotel", "car"]
+    },
+    "locale": "es",
+    "ordinalDate": 201502020900,
+    "groupStatus": "oldies-canceled",
+    "description": "Des. Sin Documentar"
+}]

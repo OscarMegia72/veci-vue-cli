@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .a,
+            .b,
+            .d {
+                fill: none;
+            }
+            
+            .a,
+            .b {
+                stroke: #7bc2f2;
+            }
+            
+            .a {
+                stroke-width: 2px;
+            }
+            
+            .b {
+                stroke-width: 3px;
+            }
+            
+            .c {
+                stroke: none;
+            }
+        </style>
+    </defs>
+    <symbol viewBox="-6261 -6343 42 42" id="ok">
+        <g transform="translate(-6417 -6499)">
+            <g class="a" transform="translate(156 156)">
+                <circle class="c" cx="21" cy="21" r="21" />
+                <circle class="d" cx="21" cy="21" r="20" />
+            </g>
+            <g transform="translate(0 4)">
+                <line class="b" x1="14" y2="14" transform="translate(173.5 166.5)" />
+                <line class="b" x2="7" y2="7" transform="translate(168.5 173.5)" />
+            </g>
+        </g>
+    </symbol>
+    <symbol viewBox="0 0 50 50" id="warning-circle">
+        <style>
+            .st0 {
+                fill: #eab33c
+            }
+        </style>
+        <g id="warning-circle-warning">
+            <path class="st0" d="M22.9 37.4v-3.1h4.3v3.1h-4.3zM22.9 32.7l-1.1-20.3H28l-.9 20.3h-4.2z" />
+        </g>
+        <path id="warning-circle-circle" class="st0" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25zm0-46.9C12.9 3.1 3.1 12.9 3.1 25S12.9 46.9 25 46.9 46.9 37.1 46.9 25 37.1 3.1 25 3.1z" />
+    </symbol>
+</svg>
