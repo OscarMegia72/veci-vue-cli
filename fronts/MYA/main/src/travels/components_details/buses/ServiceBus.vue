@@ -2,8 +2,10 @@
 
     <div class="details-train">
      
-        <template  v-for="bus in getBuses">
-              <header-details>
+        <template  v-for="(bus,idx) in getBuses">
+              <header-details
+              :key="idx"
+              >
                   <template slot="icon">
                     <span class="icon-Coche" />
                   </template>
@@ -26,8 +28,8 @@
                       {{bus.locatorNumber}}
                     </template>
               </header-details>
-              <template v-for="segment in bus.segments">
-                <detail-bus>
+              <template v-for="(segment,idx) in bus.segments">
+                <detail-bus :key="idx">
                   <template slot="company_label">
                     Compañia
                   </template>
@@ -37,7 +39,7 @@
                 </detail-bus>
                 <detail-service-mobile class="details-train-mobile" 
                   :sections="segment"
-                 
+                 :key="idx"
                   >
                   <template slot="icon_start">
                     <span class="icon-Coche" />
@@ -79,8 +81,10 @@
                   </template>
                 </detail-service-mobile>
                 <!--DETAIL SERVICE DESKTOP-->
-                <detail-service-desktop class="details-train-desktop"
+                <detail-service-desktop 
+                class="details-train-desktop"
                 :sections="segment"
+                :key="idx"
                 >
 
                   <template slot="icon_start">
@@ -157,12 +161,13 @@ export default {
    
 }
 </script>
+
 <style lang="less">
- @import '../../../styleguide/src/assets/icons.less';
+//  @import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
 .details-train{
-    &-mobile{
-      // display: block;
-    }
+   
     &-desktop{
       display: none;
     }

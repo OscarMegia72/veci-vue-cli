@@ -45,22 +45,24 @@
 </template>
 <script>
 import ItemDetail from '../common/ItemDetail'
-import Link from '../../../styleguide/src/components/blocks/Link.vue';
 export default {
     props:{
         hotel:{
             type: Object,
-            default:{}
+            default:()=>({})
         }
     },
     components:{
         'item-detail': ItemDetail,
-        'eci-link':Link
+
     }
    
 }
 </script>
+
 <style lang="less" scoped>
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
 .detail_hotel{
     // background-color: rgb(224, 147, 46);
     display: flex;

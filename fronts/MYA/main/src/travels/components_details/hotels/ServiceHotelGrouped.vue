@@ -89,7 +89,8 @@ export default {
 }
 </script>
 <style lang="less">
- @import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../assets/variables.less';
  .header_hotel{ 
    &-wrapper{
      padding: 0rem 1rem 0 1rem ;

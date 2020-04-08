@@ -1,10 +1,12 @@
-const $rest =  window.geci.rest;
+// const $rest =  window.geci.rest;
 let server_debug = false;
 let mock_debug = false;
-let mock_user = {}
-let list_users = false;
-let route_resume = '/viajes/api/resume/'
-import i18n from '../i18n';
+// let mock_user = {}
+// let list_users = false;
+// let route_resume = '/viajes/api/resume/'
+// import i18n from '../i18n';
+import { Fetch } from 'vue-fetch'
+const $ = Fetch({})
 function getMockValues(){
   if( location.hostname.includes("oidc") || location.hostname.includes("nft")){
     server_debug = true
@@ -16,8 +18,9 @@ function getLogDate(){
   return `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
 }
 function getQueryParams(){
-  let uri = window.location.search.substring(1); 
-    let params = new URLSearchParams(uri);
+    // const uri = window.location.search.substring(1); 
+    // const params = new URLSearchParams(uri);
+    console.log("getQueryParams > id", window.id_travels)
     return {booking_code: "booking_code",id: window.id_travels }
     // return {booking_code: params.get('booking_code'),id: params.get('id') }
 }
@@ -281,7 +284,8 @@ export default {
       commit('setStackDebug',message)
     },
     // path: '/viajes/mock/api/details',
-    getApiTravelDetails({commit}){
+    async getApiTravelDetails({commit}){
+      console.log("$$ > getApiTravelDetails")
         commit('setEndXhrDetails',false)
         commit('setStackDebug',window.id_travels)
         let url_api_call= `/viajes/api/details/${this.state.data_ssr.id}`
@@ -298,30 +302,24 @@ export default {
           }
           
         }
-        // $rest.getP(`/viajes/mock/api/details?id=${this.state.data_ssr.id.trim()}&booking_code=${this.state.data_ssr.booking_code.trim()}`)
-        $rest.getP(url_api_call)
-       
-        .then(result=>{
-          
-          commit('setApiDAta',result.data)
-          commit('setEndXhrDetails',true)
-          commit('setStackDebug',result.data)
-          
-        }).catch(error =>{
-          commit('setStackErrors',error)
-          commit('setClientEmpty', true)
-          if(error.response.status === 400){
+        console.log("$$ > ",url_api_call)
+        let response = await $.get(url_api_call);
+        if(response.status==200){
+            let data = await response.json()
+            console.log(data)
+            commit('setApiDAta',data)
+            commit('setEndXhrDetails',true)
+            commit('setStackDebug',data)
+        }
+        if(response.status === 400){
             commit('setStackDebug','SHOW ERROR 400')
             commit('setError400',{
               show:true,
               head:'ERROR MENSAJE DEBUG',
-              message: error.response.description
+              message: 'ID NO DISPONIBLE EN MOCK: '+this.state.data_ssr.id
             })
           }
-          commit('setEndXhrDetails',true)
-          return error
-        })  
-         
+          commit('setEndXhrDetails',true);
     },
     setViewModal400({commit},value){
       commit('setError400',{

@@ -32,6 +32,10 @@
 
 </template>
 <style lang="less">
+@import '../../../../styleguide/src/assets/icons.less';
+@import '../../../../styleguide/src/assets/variables.less';
+</style>
+<style lang="less">
  @import '../../../styleguide/src/assets/icons.less';
  .insurance{
     font-size: 11px;
@@ -145,9 +149,7 @@
                          height: inherit;
                       
                     }
-                    &-data{
-                        
-                    }
+                   
         }
      }
      }

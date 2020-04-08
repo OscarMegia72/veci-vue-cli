@@ -5,8 +5,13 @@
         </div>
     </div>
 </template>
+<style lang="less">
+@import '../../../../styleguide/src/assets/icons.less';
+@import '../../../../styleguide/src/assets/variables.less';
+</style>
 <style scoped lang="less">
- @import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
  .operations-header{
      &._wrapper{
         background-color: #FAFAFA;
@@ -38,9 +43,7 @@
             padding-left: 3rem;
             padding-right: 3rem;
         }
-        &-title{
-           
-        } 
+       
     }
  }
 </style>

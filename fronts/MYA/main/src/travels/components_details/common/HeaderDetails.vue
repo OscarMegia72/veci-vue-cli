@@ -106,7 +106,10 @@
           <slot name="details"/>
     </div>
 </template>
+
 <style lang="less" >
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
 .travel{
     &-service_status{
         &-anulated{
@@ -271,12 +274,8 @@
               
                 height:inherit;
             }
-            &-title{
-               
-            }
-            &-booking_status{
-               
-            }
+           
+           
         }
         &-locator{
              width: 100%;

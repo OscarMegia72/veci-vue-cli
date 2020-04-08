@@ -43,6 +43,8 @@ export default {
 </script>
 
 <style lang="less">
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
 .state-booking{
             color: #8F8F8F;
             font-size: 11px;

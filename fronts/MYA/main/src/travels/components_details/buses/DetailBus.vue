@@ -16,6 +16,8 @@
     </div>
 </template>
 <style scoped lang="less">
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
 .detail-bus{
     font-size: 11px;
     &-wrapper{
@@ -120,72 +122,72 @@
         display: flex;
         flex-flow: row;
     }
-    &-group_company{
+    // &-group_company{
          
-        &-label{
+    //     &-label{
           
-        }
-        &-data{
+    //     }
+    //     &-data{
                
-            }
-    }
-    &-group_rate{
+    //         }
+    // }
+    // &-group_rate{
         
-        &-rate{
+    //     &-rate{
          
-            &-label{
+    //         &-label{
                  
               
-            }
-            &-data{
+    //         }
+    //         &-data{
               
-            }
-        }
-        &-bus{
+    //         }
+    //     }
+    //     &-bus{
            
-            &-label{
+    //         &-label{
               
-            }
-             &-data{
+    //         }
+    //          &-data{
                
-            }
-        }
+    //         }
+    //     }
          
-    }
-    &-group_wagon{
+    // }
+    // &-group_wagon{
        
-         &-wagon{
+    //      &-wagon{
            
-            &-label{  
+    //         &-label{  
                
-            }
-             &-data{
+    //         }
+    //          &-data{
                
-            }
-        }
-        &-class{
+    //         }
+    //     }
+    //     &-class{
            
-            &-label{ 
+    //         &-label{ 
                
-            }
-             &-data{
+    //         }
+    //          &-data{
                 
-            }
-        }
-    }
-    &-group_seat{
+    //         }
+    //     }
+    // }
+    // &-group_seat{
         
-         &-seat{
+    //      &-seat{
            
-            &-label{  
+    //         &-label{  
                
-            }
-             &-data{
+    //         }
+    //          &-data{
                
-            }
-        }
+    //         }
+    //     }
         
-    }
+    // }
 }
 
 }

@@ -47,17 +47,17 @@
                 {{getGeneralDetails.bookingStatus.description}}
               </template>
             </header-reserv-num-v2> 
+             <service-flight/>
               <service-cruise/>
-            
-             <!-- <service-hotel/> -->
-             <service-hotel-grouped/>
-            <service-flight/>
-             <service-pack/>
-           <service-ticket/>
+              <service-hotel-grouped/>
             <service-train/>
+            <service-ticket/>
+             <service-pack/>
+              <service-ticket/>
+             
             <service-bus/>
             
-             <!-- <p>{{getGeneralDetails}}</p> -->
+           
              <template v-if="getHasInsurances" >
                 <template v-for="insurance in getInsurances">
                   <header-insurance
@@ -124,32 +124,34 @@ import loading from './components/_loading';
 import MessageUpdateData from './components/MessageUpdateData';
 import EmptyTravels from './components/EmptyTravels';
 //--
-import ItemResume from './components/ItemResume';
+// import ItemResume from './components/ItemResume';
 
-import Price from './components/PriceTravels';
+// import Price from './components/PriceTravels';
 
-import BookingState from './components/BookingState'
+// import BookingState from './components/BookingState'
 import HeaderReservNum from './components_details/common/HeaderReservNum'
 import HeaderReservNumV2 from './components_details/common/HeaderReservNum_v2'
 import HeaderInsurance from './components/insurances/HeaderInsurance'
 import HeaderTravellers from './components/travellers/HeaderTravellers'
+import ServicePack from './components_details/packs/ServicePack'
 
 import Insurance from './components/insurances/Insurance'
 import Travellers from './components/travellers/Travellers'
 
-import ServicesIcons from './components/ServicesIcons'
 import ServiceFlight from './components_details/flights/ServiceFlight'
-import ServiceHotel from './components_details/hotels/ServiceHotel'
-import ServiceHotelGrouped from './components_details/hotels/ServiceHotelGrouped'
+// 
 import ServiceTrain from './components_details/trains/ServiceTrain'
-import ServiceBus from './components_details/buses/ServiceBus'
+
 import ServiceTicket from './components_details/tickets/ServiceTicket'
-import ServicePack from './components_details/packs/ServicePack'
 import ServiceCruise from './components_details/cruises/ServiceCruise'
+
+//- Resueltos
+import ServiceBus from './components_details/buses/ServiceBus'
+import ServiceHotelGrouped from './components_details/hotels/ServiceHotelGrouped'
 
 //-eci-components
 import Title from '../styleguide/src/components/blocks/Title.vue';
-import Link from '../styleguide/src/components/blocks/Link.vue';
+// import Link from '../styleguide/src/components/blocks/Link.vue';
 // operations
 import OperationsRes from "./components/operations/OperationsRes.vue"
 import HeaderOperations from './components/operations/HeaderOperations'
@@ -166,6 +168,13 @@ export default {
         
     },
     components:{
+        'service-bus': ServiceBus,
+       'service-hotel-grouped': ServiceHotelGrouped,
+       'service-flight': ServiceFlight,
+       'service-train': ServiceTrain,
+       'service-ticket': ServiceTicket,
+        'service-pack': ServicePack,
+        'service-cruise': ServiceCruise,
         'mya-title': Title,
         'messages-400': Error400,
         'eci-loading': loading,
@@ -178,18 +187,8 @@ export default {
         'insurance':Insurance,
         'header-travellers': HeaderTravellers,
         'travellers': Travellers,
-        'service-flight': ServiceFlight,
-        'service-hotel': ServiceHotel,
-        'service-hotel-grouped': ServiceHotelGrouped,
-        'service-train': ServiceTrain,
-        'service-bus': ServiceBus,
-        'service-pack': ServicePack,
-        'service-ticket': ServiceTicket,
-        'service-cruise': ServiceCruise,
-        'booking-state': BookingState,
         'operation-res': OperationsRes,
         'agency': Agency,
-        'eci-link':Link
     },
    async created(){
         // await this.$store.dispatch('getMockApiTravelDetails');
@@ -243,12 +242,12 @@ export default {
           
            })
        },
-      
-       
    },
 }
 </script>
 <style lang="less">
+ @import '../styleguide/src/assets/icons.less';
+ @import '../assets/variables.less';
 @media @l-up {
     .tr-simil-camp{
         display: none;

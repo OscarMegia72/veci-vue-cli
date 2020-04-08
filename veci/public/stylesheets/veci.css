@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'mya-veci-font';
+    src:  url('fonts/veci/mya-veci-font.eot');
+    src:  url('fonts/veci/mya-veci-font.eot?#iefix') format('embedded-opentype'),
+      url('fonts/veci/mya-veci-font.ttf') format('truetype'),
+      url('fonts/veci/mya-veci-font.woff') format('woff'),
+      url('fonts/veci/mya-veci-font.svg?#mya-veci-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-veci-"], [class*=" icon-veci-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'mya-veci-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-veci-train:before {
+    content: "\71";
+  }
+  .icon-veci-ticket:before {
+    content: "\77";
+  }
+  .icon-veci-flight-hotel:before {
+    content: "\65";
+  }
+  .icon-veci-flight:before {
+    content: "\72";
+  }
+  .icon-veci-cruise:before {
+    content: "\74";
+  }
+  .icon-veci-car:before {
+    content: "\79";
+  }
+  .icon-veci-hotel:before {
+    content: "\75";
+  }
+  .icon-veci-train:before {
+    content: "\69";
+  }
+  .icon-veci-others:before {
+    content: "\6f";
+  }
+  .icon-veci-train:before {
+    content: "\70";
+  }
+  .icon-veci-train:before {
+    content: "\61";
+  }
+  .icon-veci-trip:before {
+    content: "\73";
+  }
+  .icon-veci-insurance:before {
+    content: "\64";
+  }
+  

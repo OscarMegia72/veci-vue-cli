@@ -2,7 +2,7 @@
         <div>
             <mya-title :tag="'h2'" 
             :data-cy="'travel-title'"
-            :class="'_main'">{{ $t('travels.title') }}
+            :class="'_main'">demo-{{ $t('travels.title') }}
             </mya-title>
         <div class="tr-container">
            <div v-html="full_cover"/>

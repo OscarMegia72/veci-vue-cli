@@ -13,7 +13,10 @@
          <div class="comon-item-detail-line"/>
     </div>
 </template>
+
 <style lang="less" scoped>
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
 .common-item-detail{
     height: 3rem;
     padding-left: 1rem;
@@ -45,13 +48,7 @@
     .common-item-detail{
         padding-left: 0;
         min-width: inherit;
-        &-wrapper{
-           // background-color: rgb(248, 211, 152);
-            // min-width: 170px;
-            // max-width: 170px;
-           // align-items: baseline;
-            //justify-content: space-between;
-        }
+      
     }
 }
 

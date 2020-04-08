@@ -43,6 +43,10 @@ export default {
 }
 </script>
 <style lang="less">
+@import '../../../styleguide/src/assets/icons.less';
+@import '../../../styleguide/src/assets/variables.less';
+</style>
+<style lang="less">
  @import '../../../styleguide/src/assets/icons.less';
  .dtls-service-res{
     // background-color: aqua;
@@ -51,12 +55,7 @@ export default {
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-     &-date{
-
-    }
-    &-airport{
-
-    }
+    
     &-hour{
         font-size: 24px;
         font-weight: 400;
@@ -68,12 +67,7 @@ export default {
     
  }
  .dtls-service-res-left{
-     &-date{
-
-    }
-    &-airport{
-
-    }
+     
     &-hour{
         font-size: 24px;
         font-weight: 400;
@@ -100,9 +94,7 @@ export default {
     // background-color: rgb(223, 140, 248);
     font-size: 11px;
     color:#484848;
-    &-date{
-
-    }
+   
     &-airport{
         text-align: right;
     }

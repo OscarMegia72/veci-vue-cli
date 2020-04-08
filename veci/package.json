@@ -1,0 +1,29 @@
+{
+  "name": "veci",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "MODO=develop nodemon --exec babel-node --inspect server.js"
+  },
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "pretty-ms": "^5.0.0",
+    "pug": "^2.0.4",
+    "rss-parser": "^3.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "@babel/core": "7.4.5",
+    "@babel/node": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "dotenv": "^8.1.0",
+    "adaro": "~1.0.4"
+  }
+}
