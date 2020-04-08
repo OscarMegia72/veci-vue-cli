@@ -1,10 +1,5 @@
-// const $rest =  window.geci.rest;
 let server_debug = false;
 let mock_debug = false;
-// let mock_user = {}
-// let list_users = false;
-// let route_resume = '/viajes/api/resume/'
-// import i18n from '../i18n';
 import { Fetch } from 'vue-fetch'
 const $ = Fetch({})
 function getMockValues(){
@@ -20,7 +15,6 @@ function getLogDate(){
 function getQueryParams(){
     // const uri = window.location.search.substring(1); 
     // const params = new URLSearchParams(uri);
-    console.log("getQueryParams > id", window.id_travels)
     return {booking_code: "booking_code",id: window.id_travels }
     // return {booking_code: params.get('booking_code'),id: params.get('id') }
 }
@@ -44,7 +38,7 @@ function getHeaderV2(){
   let uri = window.location.search.substring(1); 
   let params = new URLSearchParams(uri);
   if(params.get('headerv2')){
-    console.log("headerV2",Boolean(params.get('headerv2')))
+   
     return  Boolean(params.get('headerv2'))
   }
   return false;
@@ -285,7 +279,7 @@ export default {
     },
     // path: '/viajes/mock/api/details',
     async getApiTravelDetails({commit}){
-      console.log("$$ > getApiTravelDetails")
+     
         commit('setEndXhrDetails',false)
         commit('setStackDebug',window.id_travels)
         let url_api_call= `/viajes/api/details/${this.state.data_ssr.id}`
@@ -302,11 +296,11 @@ export default {
           }
           
         }
-        console.log("$$ > ",url_api_call)
+       
         let response = await $.get(url_api_call);
         if(response.status==200){
             let data = await response.json()
-            console.log(data)
+  
             commit('setApiDAta',data)
             commit('setEndXhrDetails',true)
             commit('setStackDebug',data)

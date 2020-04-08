@@ -9,12 +9,29 @@
     <title>EXPRESS-CLI-TRAVELS</title>
   <!-- <link href="http://localhost:8085/js/app.js" rel="preload" as="script">
   <link href="http://localhost:8085/js/chunk-vendors.js" rel="preload" as="script"> -->
+  <style>
+    .main{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(98,98,98);
+    }
+    .main-wrapper{
+      background-color: rgb(255, 255, 255);
+      max-width: 768px;
+    }
+  </style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but main doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div class="main">
+      <div class="main-wrapper">
+        <div id="app"></div>
+      </div>
+    </div>
+    
+   
     <!-- built files will be auto injected -->
   <script type="text/javascript" src="http://localhost:8085/js/chunk-vendors.js"></script>
   <script type="text/javascript" src="http://localhost:8085/js/app.js"></script>
