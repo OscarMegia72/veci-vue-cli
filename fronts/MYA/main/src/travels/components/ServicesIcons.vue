@@ -79,7 +79,7 @@ export default {
 </script>
 <style lang='less'>
  @import '../../styleguide/src/assets/icons.less';
- @import '../../assets/variables.less';
+//  @import '../../assets/variables.less';
 .travelIconsServices{
     
     display: flex;

@@ -9,7 +9,7 @@ export default {
     props:{
         pack:{
             type:Object,
-            default:{}
+              default:()=>({})
         }
     }
 

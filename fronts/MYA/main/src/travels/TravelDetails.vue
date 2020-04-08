@@ -247,7 +247,7 @@ export default {
 </script>
 <style lang="less">
  @import '../styleguide/src/assets/icons.less';
- @import '../assets/variables.less';
+ 
 @media @l-up {
     .tr-simil-camp{
         display: none;

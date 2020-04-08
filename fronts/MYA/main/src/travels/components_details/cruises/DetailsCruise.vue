@@ -157,7 +157,7 @@ export default {
 </script>
 <style lang="less" >
 @import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
+
 .detail_cruise{
     // background-color: rgb(224, 147, 46);
     display: flex;

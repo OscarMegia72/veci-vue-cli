@@ -44,7 +44,7 @@ export default {
 </script>
 <style lang="less">
 @import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
+
 </style>
 <style lang="less">
  @import '../../../styleguide/src/assets/icons.less';

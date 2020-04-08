@@ -16,7 +16,7 @@
 
 <style lang="less" scoped>
 @import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
+
 .common-item-detail{
     height: 3rem;
     padding-left: 1rem;

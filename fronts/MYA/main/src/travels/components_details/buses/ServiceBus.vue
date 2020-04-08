@@ -165,7 +165,7 @@ export default {
 <style lang="less">
 //  @import '../../../styleguide/src/assets/icons.less';
 @import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
+
 .details-train{
    
     &-desktop{

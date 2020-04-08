@@ -17,7 +17,7 @@
 </template>
 <style scoped lang="less">
 @import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
+
 .detail-bus{
     font-size: 11px;
     &-wrapper{

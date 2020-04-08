@@ -61,7 +61,7 @@
 </div>
 </template>
 <script>
-import DetailServiceResume from './DetailServiceResume'
+// import DetailServiceResume from './DetailServiceResume'
 export default {
     props:{
         sections:{
@@ -72,14 +72,11 @@ export default {
             }
     },
     components:{
-        'detail-service-resume':DetailServiceResume
+        // 'detail-service-resume':DetailServiceResume
     }
 }
 </script>
-<style lang="less">
-@import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
-</style>
+
 <style lang="less" scoped>
  @import '../../../styleguide/src/assets/icons.less';
  .dtls_services_mb{

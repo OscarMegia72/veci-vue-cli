@@ -64,7 +64,6 @@
 </template>
 <style scoped lang="less">
 @import '../../../styleguide/src/assets/icons.less';
-@import '../../../styleguide/src/assets/variables.less';
 .detail-train{
     font-size: 11px;
     &-wrapper{

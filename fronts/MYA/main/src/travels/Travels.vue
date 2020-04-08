@@ -249,7 +249,7 @@ export default {
 </script>
 <style lang="less">
  @import '../styleguide/src/assets/icons.less';
- @import '../styleguide/src/assets/variables.less';
+
 .travel-size:before{
     font-size: 18px;
 }
@@ -304,7 +304,7 @@ export default {
 </style>
 <style lang='less'>
  @import '../styleguide/src/assets/icons.less';
- @import '../styleguide/src/assets/variables.less';
+
 .tr-container{
     display: flex;
     flex-flow: column;  

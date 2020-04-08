@@ -62,8 +62,8 @@
             </div>
     </div>
       <div v-if="amounts.paidAmount"  class="operations-payments-total-payments_methods">
-          <template v-for="method in amounts.paidAmount.payments">
-              <div class="operations-payments-total-payments_methods-wrapper">
+          <template v-for="(method,idx) in amounts.paidAmount.payments">
+              <div class="operations-payments-total-payments_methods-wrapper" :key="idx">
                     <div class="operations-payments-total-payments_methods-method">
                         <div class="operations-payments-total-payments_methods-method-label">
                             {{ $t('travels.payment-method') }}
@@ -92,8 +92,10 @@
                 
     </div>
      <div v-if="amounts.discounts"  class="operations-payments-total-discount">
-         <template v-for="discount in amounts.discounts">
-              <div class="operations-payments-total-discount-wrapper">
+         <template v-for="(discount,idx) in amounts.discounts">
+              <div class="operations-payments-total-discount-wrapper"
+              :key="idx"
+              >
                 <div class="operations-payments-total-discount-label">
                     {{discount.discountType}}
                 </div>
@@ -157,6 +159,7 @@ export default {
             }else{
                 return false;
             }
+            return false;
         }
     }
 }

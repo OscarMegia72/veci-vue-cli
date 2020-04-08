@@ -81,7 +81,7 @@
 </template>
 <script>
 import DetailFlightResume from './DetailFlightResume'
-import DetailStopOverDesktop from './DetailStopOverDesktop'
+// import DetailStopOverDesktop from './DetailStopOverDesktop'
 export default {
     props:{
         sections:{
@@ -93,7 +93,7 @@ export default {
     },
     components:{
         'detail-flight-resume':DetailFlightResume,
-        'detail-stop-over-desktop': DetailStopOverDesktop
+        // 'detail-stop-over-desktop': DetailStopOverDesktop
     }
 }
 </script>

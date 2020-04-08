@@ -73,7 +73,7 @@
 </template>
 <script>
 
-import HeaderDetailFlights from './HeaderDetailFlights'
+// import HeaderDetailFlights from './HeaderDetailFlights'
 import HeaderDetails from '../common/HeaderDetails'
 import DetailCompany from './DetailCompany'
 import DetailFlightDesktop from './DetailFlightDesktop'
@@ -91,7 +91,7 @@ export default {
         
     },
     components:{
-        'header-detail-flights': HeaderDetailFlights,
+        // 'header-detail-flights': HeaderDetailFlights,
         'header-details': HeaderDetails,
         'detail-flight-mobile':DetailFlightMobile,
         'detail-flight-desktop':DetailFlightDesktop,

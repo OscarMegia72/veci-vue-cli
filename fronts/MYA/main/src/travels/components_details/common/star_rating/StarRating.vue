@@ -16,7 +16,11 @@ export default {
             type: Number,
             default:1
         },
-        stars_style:"blue-star-icon"
+        stars_style:{
+            type:String,
+            default: "blue-star-icon"
+        }
+       
         
     },
     components:{
